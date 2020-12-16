@@ -14,11 +14,14 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
+  "homepage": "http://bensgar92.github.io/Ben-Gardner-React-Portfolio",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
